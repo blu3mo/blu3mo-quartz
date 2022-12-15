@@ -1,0 +1,100 @@
+---
+title: Physics 1600 2 Quantitative methods
+---
+
+from *Physics 1600 復習プラン*
+[Physics 1600 2 Quantitative methods](Physics%201600%202%20Quantitative%20methods.md)
+
+* 2.1 Physical quantities, units and dimensions, notation . . . . . . . 22
+* 2.1.1 Types of physical quantities . . . . . . . . . . . . . . . . 22
+* 2.1.2 Coordinates . . . . . . . . . . . . . . . . . . . . . . . . . 22
+* 2.1.3 Notation . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+  * notation
+    * $v'$は、基本的に亜種を指す（微分ではない）
+* 2.1.4 Dimensions . . . . . . . . . . . . . . . . . . . . . . . . . 28
+  * dimention analysis
+    * ［θ］とかはの無次元は1になるのね
+* 2.1.5 Numerical values of physical quantities . . . . . . . . . 30
+* 2.2 Mathematical functions, time derivatives and integrals . . . . . 31
+* 2.2.1 Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+* 2.2.2 Behaviors of commonly-used functions . . . . . . . . . . 35
+  * function、出力が一つという定義なのは物理にも都合が良い
+    * 現象を記述する解が2つだと当然どっち？となるので
+  * 
+     > 
+     > mathematical functions usually take dimensionless arguments and yield dimensionless values.
+    
+    * mathematical functions: sinとかcosとかexponentialとかみたいなやつ
+      * arbitaryに定義するx(t)とかではない
+        * そりゃそう、tを取っちゃってるしxを返す
+    * e^nとかcos(n)とかが公式に登場する時にnはdimentionlessというのは分かる
+      * $f(x)=x_0e^{t/τ}$とか
+        * (t/τ)はdimentionless, τはtime constant
+      * $f(x)=x_0\cos(\omega t)$
+        * ωtはdimentionless, ωはangular frequency
+    * exceptionsは3つ
+      * $f(t)=t^2+t$とかは当然dimentionfulなargumentを取る
+        * ただ、tは基本的にt^2とかt^3にしかならない
+      * quadratic function $f(t)= \sqrt{t^2+d^2}$
+        * これは、tというargumentを取っているが、実はうまく変形すればdimentionless argumentになる
+        * $f(t)=d\sqrt{1+(\frac{t}{d})^2}$に変形できて、ここでのargumentはdで相殺されている<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/><img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>
+        * なので、$\[f(t\] = \[d\] = \[\\frac{1}{t}\]$ということかな
+      * log function
+        * $\log{Q_1}-\log{Q_2}$はdimentionあるやんと思うけど、$\log{\frac{Q_1}{Q_2}}$と書けばdimentionless
+          * 実際logの引き算は$Q_1, Q_2$の比率の問題なので、単位関係ないというかんがえかた
+* 2.2.3 Derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+  * $\frac{df}{dx}$は分数ではなく、それ単体の関数みたいなもの（$deriv_x(f)$みたいなイメージ）
+    * なので分数としてdxをcancelしたりは本来はできない
+* 2.2.4 Infinitesimal limits and differentials . . . . . . . . . . . 44
+  * infinitesimal = 無限小
+    * 小要素がないので忘れそう
+* 2.2.5 Second- and higher-order derivatives . . . . . . . . . . . 45
+* 2.2.6 Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+  * integration
+    * 積分する時に中の変数を区別して'をつけるの、position/coordinateを使い分ける意識として大事 (p50)
+  * FToCで、lower limitもちゃんと計算するのとても大事
+    * ==t_0=0だとしても、f(t_0)が0とは限らない==
+    * 逆に言えば、indefinite integralでCを使うなんてことは基本起こりえない
+      * ちゃんとt_0を計算すれば、それがCになるので
+* 2.3 Functions of time . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+* 2.3.1 Time derivatives . . . . . . . . . . . . . . . . . . . . . . . 49
+* 2.3.2 Time integration . . . . . . . . . . . . . . . . . . . . . . . 50
+* 2.3.3 Time averages . . . . . . . . . . . . . . . . . . . . . . . . 54
+* 2.4 Integrating first-order differential equations . . . . . . . . . . . 55
+  * first order differential equation
+    * dQ/dt=-Q/t、みたいな感じで右辺に関数自体が入ってるタイプ
+      * 項を移動して解ける
+* 2.4.1 Method 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+  * TODO: 余裕あればこれと2の違いを追いたい
+* 2.4.2 Method 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+* 2.5 Approximations . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+  * approx
+    * 具体的にみるのは初めてだな
+      * dropするpowerは一貫性が大事
+* 2.5.1 Binomial approximation . . . . . . . . . . . . . . . . . . 58
+  - p63質問したい<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>
+  - $(1+x)^a\approx 1+ax$はパッと出るくらい直感にしておきたい
+* 2.5.2 Small-angle approximations . . . . . . . . . . . . . . . . 63
+  * TODO: この証明は自力で一回出したい<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>
+  * ==一つ（例えばsinΘ=Θ）を使ったら、他のやつ（cos, tan）でも使う必要がある==
+  * θ \<\< 1は、lim θ to 0ではない
+    * のでsmall angle approxを使えたとしても、approximationの域を出ない意識は大事
+* 2.5.3 Taylor expansion and approximations . . . . . . . . . . 64
+  * ![image](https://gyazo.com/e72d71a9627ce5b68de5651161e20091/thumb/1000)
+  * $1/n!$と、$f(x_0)^{(n)}$と、$(x-x_0)^n$のnが一致している<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/><img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>
+
+    * f(x_0)はconstantである理解大事
+  * errorを理解したい
+    * ![image](https://gyazo.com/0bac192605a76cb485789d9edfcb70d6/thumb/1000)
+    * k+1で取る
+      * 本来よりexpansionは低めに推定しているので、errorはnegative
+* 2.5.4 Example 1: binomial . . . . . . . . . . . . . . . . . . . . 65
+  * ==(a)(a-1)などの項だけが積み上がっていく==
+* 2.5.5 Example 2: exponential function . . . . . . . . . . . . . 66
+  * ==e^x (x=0)は何階微分しても1なので、それ以外の部分だけが積み上がっていく==
+* 2.5.6 Example 3: sin θ and cos θ . . . . . . . . . . . . . . . . . 67
+  * data bookletにのってたsin/cosのexpansionの意味がわかる
+  * ==θ=0の時にsinθ=0になるので、微分した結果sinθか-sinθになった項は消える==
+  * なので1/1!-x^3/3!+x^5/5!-x^7/7!みたいな感じになる
+  * first termにtruncateすれば、sinθ=θ, cosθ=1になる
+    * なるほど<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/><img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/><img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>

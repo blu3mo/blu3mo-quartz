@@ -1,0 +1,5 @@
+---
+title: A method for generating an illusion of backwards time travel using immersive virtual reality - an exploratory study
+---
+
+[https://www.researchgate.net/publication/264951591_A_method_for_generating_an_illusion_of_backwards_time_travel_using_immersive_virtual_reality\_-\_an_exploratory_study?enrichId=rgreq-a88c4264ed2d67cd3623fea464a1b8b5-XXX&enrichSource=Y292ZXJQYWdlOzI2NDk1MTU5MTtBUzoxNDYwNTk5MDQ5NTAyNzJAMTQxMTgzNDgwMzU5NA%3D%3D&el=1_x_3&\_esc=publicationCoverPdf](https://www.researchgate.net/publication/264951591_A_method_for_generating_an_illusion_of_backwards_time_travel_using_immersive_virtual_reality_-_an_exploratory_study?enrichId=rgreq-a88c4264ed2d67cd3623fea464a1b8b5-XXX&enrichSource=Y292ZXJQYWdlOzI2NDk1MTU5MTtBUzoxNDYwNTk5MDQ5NTAyNzJAMTQxMTgzNDgwMzU5NA%3D%3D&el=1_x_3&_esc=publicationCoverPdf)

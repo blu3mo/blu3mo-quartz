@@ -1,0 +1,16 @@
+---
+title: "<論文ログ> Tangible Projection Mapping： Dynamic Appearance Augmenting of Objects in Hands"
+---
+
+[http://dx.doi.org/10.1145/3275476.3275494](http://dx.doi.org/10.1145/3275476.3275494)
+
+* *Dynamic Projection Mapping* (DPM)という、移動する物体に*リアルタイム*で*プロジェクション*する技術が最近伸びている
+  * 移動する物体の位置を特定するのが難しい
+* この研究では、既知の*3Dモデル*がある場合に位置*トラック*ができる
+  * *エッヂ検出*したInput画像を、直前の位置の3Dモデルと照らし合わせる
+  * 対応する点の*差分*をとって、物体の位置がわかる。
+* *赤外線*カメラを使っているので、Input画像でプロジェクションした映像の影響を受けずにすむ
+* [教育](%E6%95%99%E8%82%B2.md)等に活用できる
+* [Tangible](Tangible.md)なインターフェースに活用できる
+
+\#文献ログ

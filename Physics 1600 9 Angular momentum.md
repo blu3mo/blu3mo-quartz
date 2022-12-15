@@ -1,0 +1,73 @@
+---
+title: Physics 1600 9 Angular momentum
+---
+
+* 9.1 Angular momentum and torque
+  * あー、難しいってSSOが言ってたやつだ
+  * $\vec L = \vec r \times \vec p$
+    * cross product出てきた
+    * rがpと同じ方向なら、L=0、angular momentumっぽい
+    * dimentionは
+      * 方向はrとpにperpendicular
+  * $|L| = |r||p|\sinα$
+    * $= \vec r \sinα \cdot |p|$
+      * rをpとperpendicularな方向にprojectした値と、pをかける
+    * $= \vec p \sinα \cdot |r|$
+  * def
+    * cartesian
+      * ![Screenshot 2022-12-11 at 2.46.07 AM.png](Screenshot%202022-12-11%20at%202.46.07%20AM.png)
+    * polar
+      * ![Screenshot 2022-12-11 at 2.45.59 AM.png](Screenshot%202022-12-11%20at%202.45.59%20AM.png)- 9.1 Angular momentum and torque
+  * あー、難しいってSSOが言ってたやつだ
+  * $\vec L = \vec r \times \vec p$
+    * cross product出てきた
+    * rがpと同じ方向なら、L=0、angular momentumっぽい
+    * dimentionは
+      * 方向はrとpにperpendicular
+  * $|L| = |r||p|\sinα$
+    * $= \vec r \sinα \cdot |p|$
+      * rをpとperpendicularな方向にprojectした値と、pをかける
+    * $= \vec p \sinα \cdot |r|$
+  * def
+    * cartesian
+      * ![Screenshot 2022-12-11 at 2.46.07 AM.png](Screenshot%202022-12-11%20at%202.46.07%20AM.png)
+    * polar
+      * ![Screenshot 2022-12-11 at 2.45.59 AM.png](Screenshot%202022-12-11%20at%202.45.59%20AM.png)
+      * radial componentは消えてる
+  * Torque
+    * ![Screenshot 2022-12-11 at 2.50.37 AM.png](Screenshot%202022-12-11%20at%202.50.37%20AM.png)
+    * Chain ruleで$\dot{\vec r} \times \vec p$も生まれるが、それは$\vec v \times \vec p$なので0になる
+    * 方向のイメージ大事、r方向とForce方向のcross product
+      * なので、forceがcentrepetalとかだとτ=0になる
+      * Forceのθ方向成分のみがtorqueに影響を与える
+      * Forceがcentrepetalなら、angular momentumはrによってのみ変わる
+    * これは、当然originによって値が変わる
+    * Forceはmomentumのderivなので、全force足した合計
+      * ==ここの直感、式とらえる上で大事だな
+* 9.1.1 Particle moving in straight line
+  * straight lineでも、originがline上でなければangular momentumがある
+* Conical Pendulum
+  * cross product vectorの向きのイメージ大事
+  * "the symmetry of the two masses makes the angular momentum independent of the location of the origin along the z axis."
+* 9.2 Central forces
+  * angular momentum conservation
+    * ここの証明頭に入れたい
+      * radial componentは消えてる
+  * Torque
+    * ![Screenshot 2022-12-11 at 2.50.37 AM.png](Screenshot%202022-12-11%20at%202.50.37%20AM.png)
+    * Chain ruleで$\dot{\vec r} \times \vec p$も生まれるが、それは$\vec v \times \vec p$なので0になる
+    * 方向のイメージ大事、r方向とForce方向のcross product
+      * なので、forceがcentrepetalとかだとτ=0になる
+      * Forceのθ方向成分のみがtorqueに影響を与える
+      * Forceがcentrepetalなら、angular momentumはrによってのみ変わる
+    * これは、当然originによって値が変わる
+    * Forceはmomentumのderivなので、全force足した合計
+      * ==ここの直感、式とらえる上で大事だな
+* 9.1.1 Particle moving in straight line
+  * straight lineでも、originがline上でなければangular momentumがある
+* Conical Pendulum
+  * cross product vectorの向きのイメージ大事
+  * "the symmetry of the two masses makes the angular momentum independent of the location of the origin along the z axis."
+* 9.2 Central forces
+  * angular momentum conservation
+    * ここの証明頭に入れたい
