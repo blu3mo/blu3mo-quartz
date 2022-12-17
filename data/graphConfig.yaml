@@ -9,13 +9,13 @@ localGraph:
     enableLegend: false
     enableDrag: true
     enableZoom: true
-    depth: 1 # set to -1 to show full graph
+    depth: 2 # set to -1 to show full graph
     scale: 1.2
-    repelForce: 2
+    repelForce: 3
     centerForce: 1
     linkDistance: 1
     fontSize: 0.6
-    opacityScale: 3
+    opacityScale: 5
 
 ### Global Graph ###
 
