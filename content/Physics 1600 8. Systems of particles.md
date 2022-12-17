@@ -1,0 +1,143 @@
+---
+title:
+ 'Physics 1600 8. Systems of particles'
+---
+- Physics 1600 8. Systems of particles
+- from [[Physics 1600 復習プラン]]
+- Physics 1600 8. Systems of particles
+- 8.1 Basic formulation ..........................227
+- forceをinternalとexternalに分ける
+	- ここの"system"の境界はarbitary #システム 
+	- その上で、internal forceのsumは0
+- なので、例えばparticleの集合の物体を一つのsystemとすれば、external forceのみに注目して議論ができる
+- 　![Gyazo Image](https://i.gyazo.com/bca6110ded9a25ee5543030983bdc1ee/raw)
+8.2 Centerofmass............................232
+- External Force = 0と
+- Cener of Mass Frame
+- ![image](https://i.kakeru.app/df9cdbd2953dd210c2c9c3817f25c95d.svg)
+- center of mass frameで複数の物体の動きを考える
+- 　この時、external forceが無ければcenter of mass frameでのmomentumは0 →　garellian transformationをして momentumは一定であるといえる
+	- この時、elastic collisionになるのか！
+	- それは関係ないか、momentumはどちらにせよconservedで、KEがconserveされるかは状況次第
+- COM velocityが一定 = total momentumが一定 = External Forceがない
+- reduced mass
+-  ![Gyazo Image](https://i.gyazo.com/757cfec5f65eeb253e2c42d1368cc91e/raw)
+-  よくみるので記号にしておく $$3\times5$$
+- 8.3 Examples...............................235
+	- COM velocity constant =  total momentum constant = COM accerelation is 0 = no external force
+		- これ大事
+		- 
+- 8.3.1 Perfectly inelastic collisions ................23
+	- momentum conserved なら、COM velocityが一定、なるほど
+	-  external force & accはかからないので、わかる
+	-  ここで、KEはnot conserved
+		- これが自明なのが大事
+		- #疑問 ここでframeによってKE変わるが、それはどう捉えれば良い?
+- 8.3.2 Inverse inelastic collisions .................237
+	- ここでも、色々なframeの捉え方がある
+	- Runnerの力はexternal forceではない、なぜ?
+		- Newtons lawでCancel outするからか
+	- Forceとaccerelationを関連づけるなら、Internal Coordinateじゃないといけない
+		- ので、COM relativeなcoordinateを使う
+			- [[external forceが0なら、COM velocityは一定]]
+		- ForceからCOM relative velocityを出す
+			- この時、当然COM velocityの初期値次第で値は変わる
+			- が、COM velocityは一定なので問題なくintegrateはできる
+		- あとは、そこからmotionを出せば良い
+- 8.3.3 Gravitational and other external forces . . . . . . . . . . 240
+	- system全体へのexternal forceを考える
+		- これは、massが一定なのでg forceも一定になる
+	- この時COMはaccerelateしているのでinternal frameではない
+		- [[Drawing 2022-12-10 18.59.13.excalidraw]]
+		- #疑問 うーん、なんでこれはこう言えるんだ?
+		- systemがaccerelateしているってのも相対的な話
+	- それでも、COM relativeなcoordinateを考えるのは有益
+		- 例えばここの例の場合、Grav accはsystem全体とその物体で一緒なので、cancel outしてinternal forceのみを考えられる
+			- こうなると実質的にinternal forceとCOM relative coordinate を関連付けて計算できるのか
+			- まあでもこれはgrav accだけ
+- 8.3.4 The“push-me-pull-you”..................241
+	- ==COM relative coordinateは関連しているから自分以外が全て分かれば自分がわかる、大事
+		- なので二つのparticleの場合は、お互いを関連づけられる
+	- テストに出そうなので計算を改めて追いたい
+		- 最終的に出るvelocityで、inch-worm的動きが明らかになるのはなるほど〜と思った
+- 8.4 Momentumandenergy.......................245
+	- ここのimplication確認[[blu3mo.icon]]
+	- energyがconserveしないみたいな現象は起きなくて、それはΔx=0とするapproximationが悪い
+		- ちゃんとΔxも含めて計算すれば、$$W=-F_fΔx=ΔK$$で、ΔKがmotionと繋がるのでmomemtum-basedとenergy-basedで同じ結果を得れる
+		- まあでもそれはそれとして、KEがworkに変換されてdissipateするのは変わらないので、KEが減るのは事実
+- 8.4.1 Howtocatchanegg.....................246
+	- 6433.  Decreasing ∆xcm by increasing FN doesn’t help for obvious reasons.
+		- #疑問 なぜ?
+- 8.5 Mass and momentum flow problems ...............249
+	- 8.5.1 Rocketpropulsion......................250
+		- System全体: p(t+Δt)-p(t) = external force ### Δt
+-  massは変化しない
+-  重力とかはext forceになる
+- [https://kakeru.app/d565f3fba4e3139f24c2e28d0ba9e7fe](https://i.kakeru.app/d565f3fba4e3139f24c2e28d0ba9e7fe.svg)
+- Newtonian mechanicsだとmassの変化を扱えないが、ここではsystem全体で一定のmassのものを扱っているのでセーフ
+	- なるほど👦
+- テクニックとしてdmdtみたいなinfinitesimal limitの二乗のやつは消して良い
+	- dp/dt以上微分しないなら、結局何しても0なので
+- 8.5.2 Fallingraindrop.......................253
+	- ![[Screenshot 2022-12-10 at 8.59.29 PM.png]]
+	- Δxが、潰れるdisplacement
+	- #疑問 なぜ"6433. Decreasing 6462  ∆xcm by increasing FN doesn’t help for obvious reasons"?
+	- これを、KEが消え去ったと捉えるのではなく、word doneと捉えようという話か
+	- #疑問 6469.  unless the impulse due to the force applied by the cup is sufficiently large. なぜ?
+	- forceがlargeなら、一瞬でCOMのspeedが変化するので、Δxも小さくなる
+	- 　ただ、forceがlargeだと結局割れてしまう
+		-  #疑問 これはなぜ? Δx以外にも割れる要因がある
+	- how to catch the egg
+		- ![[Screenshot 2022-12-10 at 9.27.33 PM.png]]
+		- v_0 を小さくした上で、小さいforceを長い時間与え続ける
+		- ~~v_0は、COMとのrelative velocityかな
+			- なので、手を落下速度と同じスピードにすればv_0=0になる
+			- #疑問 いや違うわ、わからん
+8.5.3 Momentum transport by stream of particles . . . . . . . 254
+- これはair dragと本質的には同じことなのか[[blu3mo.icon*3]]
+-  square
+8.5.4 Gas Pressure.........................257
+8.6 Energyinsystems ..........................259
+8.6.1 Formulation .........................259 
+- configuration spaceという概念を扱う
+- $$\vec r = (\vec r_1, \vec r_2, ...,\vec r_N)$$
+	- 各パーティクルのvectorが含まれたvectorなのね
+- 式変形していくとこれになる
+	- ![[Screenshot 2022-12-10 at 9.48.56 PM.png]]
+		- #todo ここの式変形（というか元々のenergyのやつ）、追いたい
+	- ここで、==各particleにこの式を分解できないの注意
+		- Fはrのsingle-valued functionである必要があるのは前やった
+			- `F=F(\vec r_a, \vec r_b, ...)`ということ
+		- なので、particle aのrの値が一定でも、それ以外のparticleのrが違う場合はsum Fも違う
+		- Important: 同じ理由で、Potential energyのinitial condition $U(r_0)$も$r_0$がfull configurationじゃないといけない
+	- ここで、3 particlesのgrav potentialを考える
+		- ![[Screenshot 2022-12-10 at 10.22.16 PM.png]]
+		- これが分からん
+		- あー、理解
+			- $Δr=(∞-r_1)$の時のPotentialと、$Δr=(r_2-r_1)$の時のPotentialの差分がwork done
+			- ただ、前者のUは0、後者のUはnegativeなので、結果こうなる
+- ここで、powerは
+- coordinate変わってもenergyは変わらない?[[blu3mo.icon]]
+- ![Gyazo Image](https://i.gyazo.com/009edafab5cf175acdcfa1b85e9c8e72/raw)
+- 　いや、Vはgalilean transforamationで変わるよな
+8.6.2 Forcesandpotentialenergy ................267 
+- ![[Screenshot 2022-12-10 at 10.36.28 PM.png]]
+	- 大事なimplication
+- なので、potential functionを$δr_1$で偏微分してFを得る事ができる！
+8.6.3 EnergyusingCOMcoordinates ..............270 
+- まあなんか自明な計算をするとせやなって感じの式が出てくるが、これがmechanicsで色々大事らしい
+8.7 Simultaneous application of momentum and energy techniques 271
+- 今更だけど、energy conserve, momentum conserveの条件ってなんだっけ
+	- energy: [[conservative force]]のみであること
+	- momentum: [[external force]]のみであること
+	- かな
+8.7.1 Scatteringprocesses.....................272 
+- 回転はせずに、中心点だけ動かすと、COMではsame angleでscattar することになるのか
+8.8 Center of mass of continuous mass distributions . . . . . . . . 275
+- constant densityの前提なら、slice位置でareaが変わる3d図形のCOMを出したりできる
+	- multivariableをやりたくないので、Areaはareaでfunctionとして切り出す、なるほど
+	- 仮にdensity変わったとしたら、double integralをやる、なるほど
+		- naturalな流れでmutivariableに近いことをやってる、説明が上手い
+		- ![[Screenshot 2022-12-11 at 12.55.57 AM.png]]
+8.8.1 COM position and symmetries
+- symmetrical densityがありがちなので、そういうのは計算しなくてもわかるよねと証明している

@@ -1,0 +1,59 @@
+---
+title:
+ '読みたい作品本棚 (小説, 映画, ゲーム, etc)'
+---
+
+- 小説、映画、漫画、ゲームなど
+    - エンタメ作品より良い言葉がある気がするけど思いつかん
+    - 普通に作品でいいとおもう<img src='https://scrapbox.io/api/pages/blu3mo-public/takker/icon' alt='takker.icon' height="19.5"/>
+        - もしくは創作物とか
+        - 純文学やらラノベやらでカテゴリ分けする必要なさそうだし
+        - 🙏✅<img src='https://scrapbox.io/api/pages/blu3mo-public/blu3mo/icon' alt='blu3mo.icon' height="19.5"/>
+
+- in queue (順不同) (順不同なのにqueueとは)
+    - [[映像研には手を出すな]]
+    - [[ナウシカ]]
+    - [[魔女の宅急便]]
+    - ハウルの動く城もおすすめ<img src='https://scrapbox.io/api/pages/blu3mo-public/kaya/icon' alt='kaya.icon' height="19.5"/>
+    - [[ぼくは明日、昨日のきみとデートする]]
+    - [[2001年宇宙の旅]]
+    - [[パシフィック・リム]]
+    - [[銀河ヒッチハイク・ガイド]]
+    - [[地球外少年少女]]
+    - [[火の鳥]]
+    - [[Self-Reference ENGINE]]
+    - [[天久鷹央の推理カルテ]]
+    - [[キングダム]]
+    - [[POLARIS]]
+    - [[体験が設計されたジグゾーパズル]]
+    - [[封印しているゲーム]]
+    - [[メメント]]
+        - おすすめ<img src='https://scrapbox.io/api/pages/blu3mo-public/axokxi/icon' alt='axokxi.icon' height="19.5"/>
+    - [[スノウ・クラッシュ]]
+    - [[肩をすくめるアトラス]]
+    - [/villagepump/Baba Is You](https://scrapbox.io/villagepump/Baba Is You)
+    - [[ハイパーインフレーション]]
+    - [/frog96lab/フロクロおすすめ映画](https://scrapbox.io/frog96lab/フロクロおすすめ映画)
+        - この中でも[[グランド・ブダペスト・ホテル]]はおすすめ<img src='https://scrapbox.io/api/pages/blu3mo-public/rickshinmi/icon' alt='rickshinmi.icon' height="19.5"/>
+    - [[In the Heights]]
+    - [[スパイダーマン]]
+
+- not in queue（見終わったもしくは途中でやめた）
+    - [[天才による凡人のための短歌教室]]
+    - [[プロジェクト・ヘイル・メアリー]]
+    - [[チ。―地球の運動について―]]
+    - [[ONE PIECE FILM RED]]
+    - [[まず牛を球とします。]]
+    - [[ゴールデンカムイ]]
+    - [[透明人間は密室に潜む]]
+    - [[サーキット・スイッチャー]]
+    - [[West Side Story]]
+    - [[チ。―地球の運動について―]]
+    - [[AKIRA]]
+    - [[呪術廻戦]]
+    - [[Dr. Stone]]
+    - [[銀河の片隅で科学夜話]]
+    - [[攻殻機動隊]]
+    - [[千と千尋の神隠し]]
+    - [[風立ちぬ]]
+    - [[パプリカ]]

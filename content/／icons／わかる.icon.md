@@ -1,0 +1,4 @@
+---
+title:
+ '／icons／わかる.icon'
+---

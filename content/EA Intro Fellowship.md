@@ -1,0 +1,65 @@
+---
+title:
+ 'EA Intro Fellowship'
+---
+
+- > [@blu3mo](https://twitter.com/blu3mo/status/1579220038036226049): Columbia Effective Altruismというグループに参加してみている、技術や社会の哲学の話ができそうなコミュニティで楽しそう
+- > （ただ若干カルトっぽさもあって警戒しているので、洗脳されてたら助けてください(?)）
+
+- Syllabus: [https://docs.google.com/document/d/1gMl-eQhevlkkRxezc28wtdlNbjdArUMx0ILODjvNeCs/edit](https://docs.google.com/document/d/1gMl-eQhevlkkRxezc28wtdlNbjdArUMx0ILODjvNeCs/edit)
+
+- Week 1
+    - On effective altruism:
+        - Introduction to Effective Altruism (15 mins.)
+            - 実際に金がつぎこまれたant-terrorismと、そうでないpandemicの死者数を比べるのはおかしくないか
+            - 全部の人間の命をequalとするの、すごい脆い前提な気がする
+                - goodの根拠をempathyとかに置くなら、少なくとも自分の感情とは食い違う
+            - > People in effective altruism often end up focusing on issues that seem counterintuitive, obscure or exaggerated. But this is because it’s more impactful to work on the issues that are neglected by others (all else equal), and these issues are (almost by definition) going to be unconventional ones.
+            - AIを成長させる事以外のgoalがneglected、という主張
+            - animal life、大事にするとしても、人の命とequalなのか、人の命の10%の価値なのか、みたいなところ気になる
+                - ここは[[EA Intro Fellowship#635085b579e1130000f65621]]の疑問と繋がりそう
+            - 何かが良い/悪いの評価は出来たとしても、「どちらがより良い」の比較を緻密にするのは難しいんだなと
+                - この辺りの評価はどの程度定量的にやろうとしている..?
+                - とはいえ、例で挙げられているgoodは確かにeffectiveだなとは思えるし、10.1と10.2のどっちが大きいかを議論する暇があったら、10.1のgoodをやるべきという気もする
+            - Values
+                - everyone equal life
+                    - これは[[EA Intro Fellowship#635085b579e1130000f65621]]がわかれば分かりそう
+            - 気になる事
+                - 信条/感情がベースの部分と、理性ベースの部分のラインが気になる
+                    - 仮に感情ベースなら、ineffectiveだけど満足できるsupportをやるべきとなる気がする
+                    - いや、それがineffectiveだと気づいてしまう理性があって満足できないから、effectiveにやろうとしている、みたいな感じ?
+            - goodの定義
+                - > That said, typically in effective altruism, ‘doing good’ is tentatively understood to mean enabling others to have lives that are healthy, happy, fulfilled; in line with their wishes; and free from avoidable suffering – to have lives with greater wellbeing.
+                - > Effective altruism has this focus because increasing wellbeing is a goal that is important to many people. That isn’t to say that only increasing wellbeing matters, and in practice people in effective altruism have many other values.
+                    - majorityのpeopleの利益を推測しているのか
+                - goodの定義は人それぞれだけどまあ大体重なるからcollaborateしてそれぞれのvalueにおけるgoodを最大化しようぜ、みたいな?
+        - Four Ideas You Already Agree With (5 mins.)
+        - The world is much better; The world is awful; The world can be much better (5 mins.)
+            - the world is awfulの現状だけでなく、前より良いし、もっと良くなるという変化に目を向けようという話みたい
+    - On scope sensitivity:
+        - On Caring (10 mins)
+            - でかい数字をちゃんと認識できない、という話
+            - バイアスを認識した上で"正しい"評価をすると寄付しようと思う、みたいな話がある
+                - > Thousands and thousands of birds were oiled by the BP spill alone. After shutting up and multiplying, Daniel realizes (with growing horror) that the amount he acutally cares about oiled birds is lower bounded by two months of hard work and/or fifty thousand dollars.
+                - ただ、これは後者が"正しい, actual"となぜ言える?
+                - 別にそうは言っていないし、それを全部解決しようとするのも厳しい
+                    - が、そういうperspectiveもあっても良いのでは、という弱い主張になってる
+                    - だとするとEAのlife equalityの根拠が成り立たない気がする
+        - EAはこうしようというmoralなのか、alturistに考えるとこうなるよねという記述なのか
+    - On tradeoffs:
+        - We are in triage every second of every day (5 mins.)
+    - On impact:
+        - 500 Million, But Not a Single One More (5 mins.)
+    - On scout mindset and thinking clearly:
+        - Why you think you’re right – even when you’re wrong (11 mins.)
+        - The bottom line (5 mins.)
+        - What cognitive biases feel like from the inside (6 mins.)
+    - 議論
+        - whatではなくhowのところに焦点はありそうだな
+            - 基本的には、まあ大多数が同意しているgoodを前提として、それをどうすればeffectiveにできるのかという議論がしたそう
+            - その上で、howを追求する目的の手段としてwhatの話も一応する、という感覚がある
+        - criticalな議論しようぜ、という感じだったので良さそう
+
+- week ?
+    - Existential Riskを避けるべき理由として、[[Longtermism]]
+        - [[Longtermism]]:

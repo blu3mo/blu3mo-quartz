@@ -1,0 +1,6 @@
+---
+title:
+ 'QF'
+---
+
+- [[Quadratic Funding]]

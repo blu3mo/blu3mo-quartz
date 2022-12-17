@@ -1,0 +1,4 @@
+---
+title:
+ 'search／page'
+---
