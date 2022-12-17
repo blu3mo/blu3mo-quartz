@@ -15,8 +15,8 @@ enableMermaid: true
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
   enableSemanticSearch: false
-  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+  operandApiKey: "05n44zcf7zu1jq6mo8hfwo6yp7g44yw9ave3"
+  operandIndexId: "xy2hknxqqo40"
 description:
   This is Bluemo's second brain, mirrored from my Obsidian Vault.
 page_title:
