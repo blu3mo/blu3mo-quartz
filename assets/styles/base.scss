@@ -21,10 +21,9 @@ html {
 }
 
 .singlePage {
-  padding: 4em 30vw;
-  @media all {
-    padding: 25px 5vw;
-  }
+  max-width: 1200px;
+  padding: 25px 5vw;
+  margin: 0 auto;
 }
 
 
@@ -63,8 +62,6 @@ p, ul, text, a, tr, td, li, ol, ul {
   font-weight: revert;
   margin: revert;
   padding: revert;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 tbody, li, p {
