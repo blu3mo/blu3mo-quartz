@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: @blu3mo
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -18,12 +18,11 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  This is Bluemo's second brain, mirrored from my Obsidian Vault.
 page_title:
-  "🪴 Quartz 3.3"
+  "Bluemo's Brain"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/blu3mo
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/blu3mo
