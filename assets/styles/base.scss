@@ -318,21 +318,6 @@ hr {
     flex: 1 0 0;
   }
 
-  & > .backlinks-container {
-    & > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-
-      & > li {
-        margin: 0.5em 0;
-        padding: 0.25em 1em;
-        border: var(--outlinegray) 1px solid;
-        border-radius: 5px
-      }
-    }
-  }
-
   & #graph-container {
     border: var(--outlinegray) 1px solid;
     border-radius: 5px;
@@ -343,6 +328,21 @@ hr {
     & > svg {
       margin-bottom: -5px;
 
+    }
+  }
+}
+
+.backlinks-container {
+  & > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    & > li {
+      margin: 0.5em 0;
+      padding: 0.25em 1em;
+      border: var(--outlinegray) 1px solid;
+      border-radius: 5px
     }
   }
 }
