@@ -38,7 +38,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       } else {
         neighbours.add(cur)
         const outgoing = index.links[cur] || []
-        const incoming = index.backlinks[cur] || []
+        const incoming = (depth <= 1) ? (index.backlinks[cur] || []) : []
         wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
       }
     }
@@ -53,8 +53,8 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       && (l.source === curPage || l.target === curPage ||
         index.links[l.source]?.map(x => x.target).includes(curPage) || 
         index.links[l.target]?.map(x => x.target).includes(curPage) ||
-        index.backlinks[l.source]?.map(x => x.target).includes(curPage) ||
-        index.backlinks[l.target]?.map(x => x.target).includes(curPage) )),
+        index.backlinks[l.source]?.map(x => x.source).includes(curPage) ||
+        index.backlinks[l.target]?.map(x => x.source).includes(curPage) )),
   }
 
   const color = (d) => {
@@ -110,7 +110,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       d3
         .forceLink(data.links)
         .id((d) => d.id)
-        .distance(30),
+        .distance(50),
     )
     .force("center", d3.forceCenter())
 
