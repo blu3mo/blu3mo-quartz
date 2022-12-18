@@ -48,7 +48,8 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
 
   const data = {
     nodes: [...neighbours].map((id) => ({ id })),
-    links: copyLinks.filter((l) => neighbours.has(l.source) && neighbours.has(l.target)),
+    links: copyLinks.filter((l) => neighbours.has(l.source) && neighbours.has(l.target) 
+      && (l.source === curPage || l.target === curPage || (index.links[l.source]?.map(x => x.target).includes(curPage) || (index.links[l.target]?.map(x => x.target).includes(curPage)) ))),
   }
 
   const color = (d) => {
@@ -168,7 +169,10 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .style("cursor", "pointer")
     .on("click", (_, d) => {
       // SPA navigation
-      window.Million.navigate(new URL(`${baseUrl}${decodeURI(d.id).replace(/\s+/g, "-")}/`), ".singlePage")
+      // Only navigate when the page exists
+      if (content[d.id]) {
+        window.Million.navigate(new URL(`${baseUrl}${decodeURI(d.id).replace(/\s+/g, "-")}/`), ".singlePage")
+      }
     })
     .on("mouseover", function (_, d) {
       d3.selectAll(".node").transition().duration(100).attr("fill", "var(--g-node-inactive)")
@@ -233,6 +237,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize+'em')
+    .attr('fill', 'rgba(0, 0, 0, 0.5)')
     .raise()
     .call(drag(simulation))
 
