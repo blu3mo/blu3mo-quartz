@@ -49,7 +49,12 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   const data = {
     nodes: [...neighbours].map((id) => ({ id })),
     links: copyLinks.filter((l) => neighbours.has(l.source) && neighbours.has(l.target) 
-      && (l.source === curPage || l.target === curPage || (index.links[l.source]?.map(x => x.target).includes(curPage) || (index.links[l.target]?.map(x => x.target).includes(curPage)) ))),
+      // Removes links between 2-hop links
+      && (l.source === curPage || l.target === curPage ||
+        index.links[l.source]?.map(x => x.target).includes(curPage) || 
+        index.links[l.target]?.map(x => x.target).includes(curPage) ||
+        index.backlinks[l.source]?.map(x => x.target).includes(curPage) ||
+        index.backlinks[l.target]?.map(x => x.target).includes(curPage) )),
   }
 
   const color = (d) => {
@@ -105,7 +110,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       d3
         .forceLink(data.links)
         .id((d) => d.id)
-        .distance(40),
+        .distance(30),
     )
     .force("center", d3.forceCenter())
 
@@ -237,7 +242,6 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize+'em')
-    .attr('fill', 'rgba(0, 0, 0, 0.5)')
     .raise()
     .call(drag(simulation))
 

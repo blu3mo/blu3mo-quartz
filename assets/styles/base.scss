@@ -620,3 +620,20 @@ mark {
   background-color: var(--highlighted);
   color: var(--gray);
 }
+
+.pageBody {
+  display: flex;
+  flex-direction: row;
+  @media all and (max-width: 780px) {
+    flex-direction: column;
+  }
+  gap: 10px;
+}
+
+article {
+  flex-grow: 1;
+}
+
+.backlinks-container {
+  min-width: 150px;
+}

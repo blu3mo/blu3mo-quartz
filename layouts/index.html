@@ -7,13 +7,18 @@
 <div class="singlePage">
     <!-- Begin actual content -->
     {{partial "header.html" .}}
-    <article>
+    <div class="pageBody">
+      <article>
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
         {{if $.Site.Data.config.enableRecentNotes}}
           {{partial "recent.html" . }}
         {{end}}
-    </article>
+      </article>
+      <div class="backlinks-container">
+        {{partial "backlinks.html" .}}
+      </div>
+    </div>
     {{partial "footerIndex.html" .}}
 </div>
 </body>
