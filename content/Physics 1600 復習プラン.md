@@ -32,7 +32,7 @@ Fri
 - [[Physics 1600 7 Energy and Newtonian Mechanics]]
 - [[Physics 1600 8. Systems of particles]]
 - [[Physics 1600 9 Angular momentum]]
-- [[Physics 1600 9. Special relativity I]]
+- [[Physics 1600 10. Special relativity I]]
 
 
 9.1 Angularmomentumandtorque..................281

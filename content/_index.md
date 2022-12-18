@@ -2,7 +2,7 @@
 title:
  '_index'
 ---
-- 自分のLocalの[[Obsidian ]]Vaultを公開してみました
+- 自分のLocalの[[Obsidian]] Vaultを公開してみました
 	- [[Obsidian公開計画]]
 - [[scrapbox-duplicator]]でやっていたような事をやりたかった
 	-  [https://scrapbox.io/blu3mo-public](https://scrapbox.io/blu3mo-public) の内容が元
