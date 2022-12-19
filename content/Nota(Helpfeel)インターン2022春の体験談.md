@@ -3,7 +3,7 @@ title:
  'Nota(Helpfeel)インターン2022春の体験談'
 ---
 
-- 2022年の3月は、[[Helpfeel Inc.]](現Helpfeel)にてインターンとしてScrapboxを開発していました！
+- 2022年の3月は、[[Helpfeel_Inc.]](現Helpfeel)にてインターンとしてScrapboxを開発していました！
 - このページは、インターンの体験談記事です。
 - 話したいこと:
 
