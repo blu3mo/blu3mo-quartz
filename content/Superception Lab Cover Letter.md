@@ -5,7 +5,7 @@ title:
 - Columbia University 1年の青山柊太朗と申します。
     - [Twitter](https://twitter.com/blu3mo) / [LinkedIn](https://www.linkedin.com/in/blu3mo/) / [Resume](https://drive.google.com/file/d/13_-j1Qh1A3VOfLskNvD7z6L4TNL41eDC/view?usp=sharing)
     - 情報科学を主専攻、哲学を副専攻として学んでいます。
-- 突然恐縮ですが、Superception Labにてリサーチインターンの機会を頂けないでしょうか。
+- Superception Labにてリサーチインターンの機会を頂けないでしょうか。
     - Superceptionのテーマ・研究手法がまさに自分が取り組みたい事と一致しており、実際に研究に携わる体験から他では得られない知見・スキルが得られると思い、ご連絡させて頂きました。
     - 2023年5月中旬から8月末まで帰国する予定であるため、その時期に参加させて頂けるととても嬉しいです。もしくは、それ以外の時期でも米国からオンラインで参加可能です。
 - 以下に、関心のあるテーマ / 過去の開発・研究 / 出来る事・取り組みたい事を纏めました。
