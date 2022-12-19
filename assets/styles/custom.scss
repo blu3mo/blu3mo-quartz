@@ -39,3 +39,13 @@ p, ul, text, a, tr, td, li, ol, ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+article a.internal-link.broken {
+  opacity: 1;
+  color: #9a6c6c;
+}
+
+
+article a.internal-link.broken:hover{
+  color: #a58484;
+}
