@@ -71,3 +71,6 @@ title:
 - 9.2 Central forces
 	- angular momentum conservation
 		- ここの証明頭に入れたい
+	- Effective Energy
+		- Total - E_eff = r方向のKE
+		- なので、Energy DiagramでTotal = E_effのところはr方向のvが0
