@@ -12,7 +12,16 @@ end term
         - newton laws does not work when mass change
         - kinetic energy when galilean transformation
 
-- pset 10
+- practice final
+	- logのintegrationのlimit注意
+	- F=-dU/dxとtaylor expansionで得られるharmonic motion、でそう
+	- dm/dtがrateであって、Δmはrateではないの、注意
+	- momentum of inertiaって書いてあっても避けない、neglibibleかも
+
+- pset 10 5:35-
+    - q1
+        - COM frameから考えるの大事
+        - external forceがない
     - q2 なぜvがconstantならどちらもinternal frameなのかを考えるの大事
         - external forceはあるが、そもそもground frameのgallilean transformationなので問題ないということか
         - この場合では、ΔKの値はframe変えると変わるが、それは移動距離も変わってwork doneが変わっているから

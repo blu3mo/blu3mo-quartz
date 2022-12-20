@@ -52,7 +52,8 @@ title:
 - 9.2 Central forces
 	- angular momentum conservation
 		- ここの証明頭に入れたい
-			- radial componentは消えてる
+			- Lの要素は、rと直角なp = tangential velocityだけ
+		- Accerelationがradial componentにしかないなら、tangential velocityは一定で、angular momentumが一定という話
 	- Torque
 		- ![[Screenshot 2022-12-11 at 2.50.37 AM.png]]
 		- Chain ruleで$\dot{\vec r} \times \vec p$も生まれるが、それは$\vec v \times \vec p$なので0になる
@@ -72,5 +73,11 @@ title:
 	- angular momentum conservation
 		- ここの証明頭に入れたい
 	- Effective Energy
+		- polar velocityのsquareは、$\dot{r}^2+r^2\dot{θ}^2$になる
+			- これ非自明だな、普通に足して良いのか
+			- velocity vector同士のdot productだからこうなるのか、理解
 		- Total - E_eff = r方向のKE
 		- なので、Energy DiagramでTotal = E_effのところはr方向のvが0
+	- Initial conditionのmomentuを求めて、それがconservedしているなら一定と言える
+		- central forceだからそういえる
+		- 一定だとして、rが小さくなるとその分$\dot \theta$が大きくなる
