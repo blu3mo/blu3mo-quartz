@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"09894db0bf2329a1","x":-197,"y":-133,"width":400,"height":400,"type":"file","file":"Obsidianだと人と話せない問題.md"},
+		{"id":"bee0e4fdcd0a12ae","x":-281,"y":-308,"width":250,"height":60,"type":"text","text":"考えていること"},
+		{"id":"f0feb15d6c2448b8","x":-681,"y":-218,"width":442,"height":400,"type":"file","file":"Obsidian公開計画.md"},
+		{"id":"3809578bce756bda","x":78,"y":-333,"width":250,"height":50,"type":"text","text":""},
+		{"id":"aef6003d5f257a11","x":232,"y":-132,"width":513,"height":594,"type":"link","url":"https://scrapbox.io/villagepump"},
+		{"id":"e7b3fbbd348caa58","x":489,"y":-572,"width":400,"height":400,"type":"link","url":"https://scrapbox.io/blu3mo-public"},
+		{"id":"9da82360759cefc2","x":-597,"y":302,"width":400,"height":400,"type":"file","file":"料理の四面体.md"}
+	],
+	"edges":[
+		{"id":"371219ce0b579c8f","fromNode":"bee0e4fdcd0a12ae","fromSide":"bottom","toNode":"09894db0bf2329a1","toSide":"top"},
+		{"id":"c69eb9442cfe0240","fromNode":"f0feb15d6c2448b8","fromSide":"top","toNode":"bee0e4fdcd0a12ae","toSide":"left"}
+	]
+}
