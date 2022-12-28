@@ -22,6 +22,8 @@ title:
             - [/villagepump/Obsidian Scrapbox化計画](https://scrapbox.io/villagepump/Obsidian Scrapbox化計画)
     - 拡張がScrapboxよりやりやすそうな予感
     - 結構乗り換えの気持ちが高まっている
+    - IDEっぽくて良い
+        - 
 
 - [https://github.com/zsviczian/obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)
     - え、これめちゃ良いな

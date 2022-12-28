@@ -3,6 +3,12 @@ title:
  'GenChem 復習／試験対策'
 ---
 
+Final
+ FONがhydrogen bonding
+ B.O. = ½ (bonding e-s – antibonding e-s)
+760 toor = 1atm
+BCN irregular MO
+
 Exam 3
 - formal charge復習
 - Δe neg = 1.6がボーダー

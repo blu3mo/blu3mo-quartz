@@ -5,12 +5,6 @@ title:
 [[scrapbox-duplicator]]相当の事をやりたい
 [[Quartz]] + [[Hugo]]が良さそう
 
-- FrontMatter問題は解決
-	- その上で、これと[[Quartz]]の公開を定期実行したい
-	- ファイルに変化があった時のみだな
-	- [[fswatch]]を使うと良さそう
-		- [[macOS] Terminalでファイルを監視し更新されたら指定の処理をする - fswatch](https://blog.katsubemakito.net/macos/fswatch)
-
 - Front Matterがないことで詰まった
 	- plan 1: 最初は[[正規表現でmdの中身を置き換え]]でfront matterを挿入しようとした
 	- plan 2: これを使うと良さそう?
@@ -38,3 +32,20 @@ title:
 
 - https://fulcra.design/Notes/-Start-publishing-my-notes/#tasks
 	- 参考になりそう
+
+- FrontMatter問題は解決
+	- その上で、これと[[Quartz]]の公開を定期実行したい
+	- ファイルに変化があった時のみだな
+	- [[fswatch]]を使うと良さそう
+		- [[macOS] Terminalでファイルを監視し更新されたら指定の処理をする - fswatch](https://blog.katsubemakito.net/macos/fswatch)
+
+- 分かってはいたが、これだとScrapboxみたいにコミュニケーションが取れない問題がある
+	- 解決策
+		- scrapboxのpublicプロジェクトを別に用意して、人と話すのはそこでやる？
+		- うーん、でも各Obsidianページに書き込める便利さはあるんだよな〜
+		- 
+
+- ドメインを早めに用意したい
+	- SEO的なあれ
+	- blu3mo.comとか?
+		- うーん、びみょい

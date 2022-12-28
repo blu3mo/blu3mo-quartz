@@ -81,3 +81,10 @@ title:
 	- Initial conditionのmomentuを求めて、それがconservedしているなら一定と言える
 		- central forceだからそういえる
 		- 一定だとして、rが小さくなるとその分$\dot \theta$が大きくなる
+- 9.3
+	- Lrot、τrotをくくりだす
+- 9.4
+	- rigid body
+	- > 7382.  These systems consist of particles whose positions with respect to the COM are fixed
+    
+7383.  7394  except for an overall rotation of the object.
