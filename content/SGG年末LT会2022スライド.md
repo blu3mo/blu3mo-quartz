@@ -24,7 +24,7 @@ title:
 
 	- Step 1. VRシステムはすごくなる
 		- VRシステムを表す図として、こんな物がある
-			- ![[Files/Pasted image 20221227204536.png]]
+			- ![[Files/vrstructure.png]]
 				-  from [VRのための研究をしたい人へ　〜VR研究分野マップ〜｜yunoLv3｜note](https://note.com/yunolv3/n/n684f3bcb4e52) & VR学本
 		- これの全部が発達する
 			- シミュレーションシステム

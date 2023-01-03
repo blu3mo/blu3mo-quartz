@@ -7,4 +7,4 @@ title:
 - うーん、出来ないな💭
 - `<a class="internal-link broken">Screenshot 2022-12-28 at 7.52.08 PM.png</a>`
 	- こうなってる💭
-- 
+- ![](https://i.imgur.com/kl3FN2n.png)
