@@ -79,7 +79,7 @@ title:
 - テクニックとしてdmdtみたいなinfinitesimal limitの二乗のやつは消して良い
 	- dp/dt以上微分しないなら、結局何しても0なので
 - 8.5.2 Fallingraindrop.......................253
-	- ![[Images/Screenshot 2022-12-10 at 8.59.29 PM.png]]
+	- ![[Files/Screenshot 2022-12-10 at 8.59.29 PM.png]]
 	- Δxが、潰れるdisplacement
 	- #疑問 なぜ"6433. Decreasing 6462  ∆xcm by increasing FN doesn’t help for obvious reasons"?
 	- これを、KEが消え去ったと捉えるのではなく、word doneと捉えようという話か
@@ -88,7 +88,7 @@ title:
 	- 　ただ、forceがlargeだと結局割れてしまう
 		-  #疑問 これはなぜ? Δx以外にも割れる要因がある
 	- how to catch the egg
-		- ![[Images/Screenshot 2022-12-10 at 9.27.33 PM.png]]
+		- ![[Files/Screenshot 2022-12-10 at 9.27.33 PM.png]]
 		- v_0 を小さくした上で、小さいforceを長い時間与え続ける
 		- ~~v_0は、COMとのrelative velocityかな
 			- なので、手を落下速度と同じスピードにすればv_0=0になる
@@ -103,7 +103,7 @@ title:
 - $$\vec r = (\vec r_1, \vec r_2, ...,\vec r_N)$$
 	- 各パーティクルのvectorが含まれたvectorなのね
 - 式変形していくとこれになる
-	- ![[Images/Screenshot 2022-12-10 at 9.48.56 PM.png]]
+	- ![[Files/Screenshot 2022-12-10 at 9.48.56 PM.png]]
 		- #todo ここの式変形（というか元々のenergyのやつ）、追いたい
 	- ここで、==各particleにこの式を分解できないの注意
 		- Fはrのsingle-valued functionである必要があるのは前やった
@@ -111,7 +111,7 @@ title:
 		- なので、particle aのrの値が一定でも、それ以外のparticleのrが違う場合はsum Fも違う
 		- Important: 同じ理由で、Potential energyのinitial condition $U(r_0)$も$r_0$がfull configurationじゃないといけない
 	- ここで、3 particlesのgrav potentialを考える
-		- ![[Images/Screenshot 2022-12-10 at 10.22.16 PM.png]]
+		- ![[Files/Screenshot 2022-12-10 at 10.22.16 PM.png]]
 		- これが分からん
 		- あー、理解
 			- $Δr=(∞-r_1)$の時のPotentialと、$Δr=(r_2-r_1)$の時のPotentialの差分がwork done
@@ -121,7 +121,7 @@ title:
 - ![Gyazo Image](https://i.gyazo.com/009edafab5cf175acdcfa1b85e9c8e72/raw)
 - 　いや、Vはgalilean transforamationで変わるよな
 8.6.2 Forcesandpotentialenergy ................267 
-- ![[Images/Screenshot 2022-12-10 at 10.36.28 PM.png]]
+- ![[Files/Screenshot 2022-12-10 at 10.36.28 PM.png]]
 	- 大事なimplication
 - なので、potential functionを$δr_1$で偏微分してFを得る事ができる！
 8.6.3 EnergyusingCOMcoordinates ..............270 
@@ -138,6 +138,6 @@ title:
 	- multivariableをやりたくないので、Areaはareaでfunctionとして切り出す、なるほど
 	- 仮にdensity変わったとしたら、double integralをやる、なるほど
 		- naturalな流れでmutivariableに近いことをやってる、説明が上手い
-		- ![[Images/Screenshot 2022-12-11 at 12.55.57 AM.png]]
+		- ![[Files/Screenshot 2022-12-11 at 12.55.57 AM.png]]
 8.8.1 COM position and symmetries
 - symmetrical densityがありがちなので、そういうのは計算しなくてもわかるよねと証明している
