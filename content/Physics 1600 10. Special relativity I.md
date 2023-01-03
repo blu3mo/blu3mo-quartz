@@ -28,10 +28,10 @@ title:
 		- この式を立てたのはどんな理由がある？
 			- x^2に依存するみたいな可能性を排除できたのは何故だろう
 		- Gallilean Transformationの条件 $x = v_G t$から、これらが導ける
-			- ![[Screenshot 2022-12-13 at 10.56.40 AM.png]]
-			- ![[Screenshot 2022-12-13 at 10.59.17 AM.png]]
+			- ![[Images/Screenshot 2022-12-13 at 10.56.40 AM.png]]
+			- ![[Images/Screenshot 2022-12-13 at 10.59.17 AM.png]]
 		- $c$がtransforamtionしても不変という観測事実から、これが導ける
-			- ![[Screenshot 2022-12-13 at 11.08.22 AM.png]]
+			- ![[Images/Screenshot 2022-12-13 at 11.08.22 AM.png]]
 			- Cとcの違いに注意
 			- お〜、おもろ
 		- 結果、==B, C, DをAによって表すことができる
@@ -41,6 +41,6 @@ title:
 		- その上で、Condition 4: $t'' = t$を考える
 			- 変換して、逆変換したら元に戻らんとおかしいというcondition
 		- 最終的に、Lorentz Transformationができる
-			- ![[Screenshot 2022-12-13 at 11.27.58 AM.png]]
+			- ![[Images/Screenshot 2022-12-13 at 11.27.58 AM.png]]
 		- B: Boost
 			- 

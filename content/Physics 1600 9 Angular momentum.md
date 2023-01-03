@@ -15,9 +15,9 @@ title:
 		- $= \vec p \sinα \cdot |r|$
 	- def
 		- cartesian
-			- ![[Screenshot 2022-12-11 at 2.46.07 AM.png]]
+			- ![[Images/Screenshot 2022-12-11 at 2.46.07 AM.png]]
 		- polar
-			- ![[Screenshot 2022-12-11 at 2.45.59 AM.png]]- 9.1 Angular momentum and torque
+			- ![[Images/Screenshot 2022-12-11 at 2.45.59 AM.png]]- 9.1 Angular momentum and torque
 	- あー、難しいってSSOが言ってたやつだ
 	- $\vec L = \vec r \times \vec p$
 		- cross product出てきた
@@ -30,12 +30,12 @@ title:
 		- $= \vec p \sinα \cdot |r|$
 	- def
 		- cartesian
-			- ![[Screenshot 2022-12-11 at 2.46.07 AM.png]]
+			- ![[Images/Screenshot 2022-12-11 at 2.46.07 AM.png]]
 		- polar
-			- ![[Screenshot 2022-12-11 at 2.45.59 AM.png]]
+			- ![[Images/Screenshot 2022-12-11 at 2.45.59 AM.png]]
 			- radial componentは消えてる
 	- Torque
-		- ![[Screenshot 2022-12-11 at 2.50.37 AM.png]]
+		- ![[Images/Screenshot 2022-12-11 at 2.50.37 AM.png]]
 		- Chain ruleで$\dot{\vec r} \times \vec p$も生まれるが、それは$\vec v \times \vec p$なので0になる
 		- 方向のイメージ大事、r方向とForce方向のcross product
 			- なので、forceがcentrepetalとかだとτ=0になる
@@ -55,7 +55,7 @@ title:
 			- Lの要素は、rと直角なp = tangential velocityだけ
 		- Accerelationがradial componentにしかないなら、tangential velocityは一定で、angular momentumが一定という話
 	- Torque
-		- ![[Screenshot 2022-12-11 at 2.50.37 AM.png]]
+		- ![[Images/Screenshot 2022-12-11 at 2.50.37 AM.png]]
 		- Chain ruleで$\dot{\vec r} \times \vec p$も生まれるが、それは$\vec v \times \vec p$なので0になる
 		- 方向のイメージ大事、r方向とForce方向のcross product
 			- なので、forceがcentrepetalとかだとτ=0になる

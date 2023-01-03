@@ -19,9 +19,9 @@ title:
 					- privateの場合と、2-hopの場合と、文字置き換えでリンク切れの場合がある
 					- 文字置き換えは対処、privateは仕方ない
 					- ただ、全部リンクが切れて困っている
-				- ![[Screenshot 2022-12-15 at 10.01.51 PM.png]]
+				- ![[Images/Screenshot 2022-12-15 at 10.01.51 PM.png]]
 					- 日本語入ってるとだめか〜〜〜、、、、
-						- ![[Screenshot 2022-12-15 at 10.03.41 PM.png]]
+						- ![[Images/Screenshot 2022-12-15 at 10.03.41 PM.png]]
 						- 問題はこれだな
 							- というかここはwikilinkでも効くはずなので、この変換いらないんだよな
 					- 本当に欲しい変換は[[frontmatter]]の追加とprivateの排除だけ
@@ -49,3 +49,6 @@ title:
 	- SEO的なあれ
 	- blu3mo.comとか?
 		- うーん、びみょい
+
+- 不具合
+	- [[Hugo Quartzで画像が表示されない]]
